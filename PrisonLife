@@ -75,7 +75,7 @@ TIGERADMIN.Text = "TIGER ADMIN"
 TIGERADMIN.TextColor3 = Color3.fromRGB(0, 0, 0)
 TIGERADMIN.TextSize = 28.000
 TIGERADMIN.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet(('https://raw.githubusercontent.com/h17s3/TIGERADMIN/main/TIGERADMINSCRIPTFREE'),true))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/dalloc2/Roblox/main/TigerAdmin.lua",true))()
 end)
 
 UICorner_2.Parent = TIGERADMIN
