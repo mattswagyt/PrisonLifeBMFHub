@@ -126,7 +126,7 @@ CHATBYPASS.Text = "CHAT BYPASS"
 CHATBYPASS.TextColor3 = Color3.fromRGB(255, 255, 255)
 CHATBYPASS.TextSize = 23.000
 CHATBYPASS.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/ChainGotStucked/a55af82d82574/main/Eminence%20Hub%20V1.8"))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/ChatBypasser-AZY/main/Chat%20Bypass%20-%20ChatSplitter(Source).lua"))()
 end)
 
 UICorner_5.Parent = CHATBYPASS
